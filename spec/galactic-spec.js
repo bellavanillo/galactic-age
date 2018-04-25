@@ -36,6 +36,6 @@ describe('Birthdate', function(){
   });
   it('should calculate the life expectancy left over for a man', function(){
     let birthdate = new Birthdate();
-    expect(birthdate.lifeMan(15)).toEqual(62);
+    expect(birthdate.lifeMan(15)).toEqual(63);
   });
 });
