@@ -28,7 +28,7 @@ describe('Birthdate', function(){
   });
   it('should calculate the life expectancy of someone based on if they are male', function(){
     let birthdate = new Birthdate();
-    expect(birthdate.expectancyMan(78)).toEqual(73);
+    expect(birthdate.expectancyMan(78)).toEqual(78);
   });
 
 });
