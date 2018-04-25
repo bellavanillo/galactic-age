@@ -20,6 +20,6 @@ describe('Birthdate', function(){
   });
   it('should calculate the age of someone on Jupiter', function(){
     let birthdate= new Birthdate();
-    expect(birthdate.ageJupiter(15)).toEqual(0);
+    expect(birthdate.ageJupiter(15)).toEqual(1);
   });
 });
