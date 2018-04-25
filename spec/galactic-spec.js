@@ -8,6 +8,6 @@ describe('Birthdate', function(){
   });
   it('should calculate the age of someone on Mercury', function(){
     let birthdate= new Birthdate();
-    expect(birthdate.ageMecury(15)).toEqual(61);
+    expect(birthdate.ageMecury(15)).toEqual(62);
   });
 });
