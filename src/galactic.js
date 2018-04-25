@@ -18,4 +18,8 @@ export class Birthdate {
     let marsAge = (Math.floor(age/1.88));
     return marsAge;
   }
+  ageJupiter(age){
+    let jupiterAge = (Math.floor(age/11.86));
+    return jupiterAge;
+  }
 }
