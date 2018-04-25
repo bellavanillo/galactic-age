@@ -32,4 +32,8 @@ export class Birthdate {
     let manAge = (78);
     return manAge;
   }
+  expectancyWoman(age){
+    let womanAge = (81);
+    return womanAge;
+  }
 }
