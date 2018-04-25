@@ -40,4 +40,8 @@ export class Birthdate {
     let leftoverMan = (78 - age);
     return leftoverMan;
   }
+  lifeWoman(age){
+    let leftoverWoman = (81 - age);
+    return leftoverWoman;
+  }
 }
