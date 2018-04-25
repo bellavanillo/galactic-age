@@ -16,6 +16,6 @@ describe('Birthdate', function(){
   });
   it('should calculate the age of someone on Mars', function(){
     let birthdate= new Birthdate();
-    expect(birthdate.ageMars(15)).toEqual(6);
+    expect(birthdate.ageMars(15)).toEqual(7);
   });
 });
