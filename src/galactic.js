@@ -36,4 +36,8 @@ export class Birthdate {
     let womanAge = (81);
     return womanAge;
   }
+  lifeMan(age){
+    let leftoverMan = (78 - age);
+    return leftoverMan;
+  }
 }
