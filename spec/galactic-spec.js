@@ -22,4 +22,8 @@ describe('Birthdate', function(){
     let birthdate= new Birthdate();
     expect(birthdate.ageJupiter(15)).toEqual(1);
   });
+  it('should calculate the seconds between two days', function(){
+    let birthdate= new Birthdate();
+    expect(birthdate.differenDate("April 20, 2018 03:45:00", "March 13, 1997 03:45:00")).toEqual(665967600000);
+  });
 });
