@@ -32,6 +32,6 @@ describe('Birthdate', function(){
   });
   it('should calculate the life expectancy of someone based on if they are female', function(){
     let birthdate = new Birthdate();
-    expect(birthdate.expectancyWoman(81)).toEqual(80);
+    expect(birthdate.expectancyWoman(81)).toEqual(81);
   });
 });
