@@ -14,4 +14,8 @@ export class Birthdate {
     let venusAge = (Math.floor(age/0.62));
     return venusAge;
   }
+  ageMars(age){
+    let marsAge = (Math.floor(age/1.88));
+    return marsAge;
+  }
 }
