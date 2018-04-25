@@ -22,4 +22,10 @@ export class Birthdate {
     let jupiterAge = (Math.floor(age/11.86));
     return jupiterAge;
   }
+  differenDate(current, random){
+    let currentTime = new Date(current).getTime();
+    let randomDate = new Date(random).getTime();
+    let diffDate = (currentTime - randomDate);
+    return diffDate;
+  }
 }
