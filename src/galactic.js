@@ -28,4 +28,8 @@ export class Birthdate {
     let diffDate = (currentTime - randomDate);
     return diffDate;
   }
+  expectancyMan(age){
+    let manAge = (78);
+    return manAge;
+  }
 }
