@@ -26,4 +26,9 @@ describe('Birthdate', function(){
     let birthdate= new Birthdate();
     expect(birthdate.differenDate("April 20, 2018 03:45:00", "March 13, 1997 03:45:00")).toEqual(665967600000);
   });
+  it('should calculate the life expectancy of someone based on if they are male', function(){
+    let birthdate = new Birthdate();
+    expect(birthdate.expectancyMan(78)).toEqual(73);
+  });
+
 });
