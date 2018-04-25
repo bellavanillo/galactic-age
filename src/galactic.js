@@ -6,5 +6,8 @@ export class Birthdate {
     let yearSeconds = (age * 31536000);
     return yearSeconds;
   }
-  
+  ageMecury(age){
+    let mecuryAge = (Math.floor(age/0.24));
+    return mecuryAge;
+  }
 }
