@@ -10,4 +10,8 @@ describe('Birthdate', function(){
     let birthdate= new Birthdate();
     expect(birthdate.ageMecury(15)).toEqual(62);
   });
+  it('should calculate the age of someone on Venus', function(){
+    let birthdate= new Birthdate();
+    expect(birthdate.ageVenus(15)).toEqual(23);
+  });
 });

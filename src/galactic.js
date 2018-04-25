@@ -10,4 +10,8 @@ export class Birthdate {
     let mecuryAge = (Math.floor(age/0.24));
     return mecuryAge;
   }
+  ageVenus(age){
+    let venusAge = (Math.floor(age/0.62));
+    return venusAge;
+  }
 }
